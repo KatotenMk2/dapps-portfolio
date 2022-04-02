@@ -1,38 +1,114 @@
+:root {
+  --black-color: #010000;
+  --white-color: #ffffff;
+  --lightgray-color: #e6e6e6;
+  --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(50, 50, 50);
+  color: white;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 70px;
+  position: fixed;
+}
+
+header .logo h3 {
+  font-size: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: rgb(50, 50, 50);
+}
+
+.title {
+  display: inline-block;
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  height: 100vh;
+  padding: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profileImage {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
+
+.portfolio {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.card-effect {
+  box-shadow: var(--box-shadow);
+  background-color: #fff;
+  padding: 25px;
+  transition: all 0.35x ease;
+}
+
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.go-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.gradation-button {
+  background: -webkit-linear-gradient(top, #e9e9e9, #333333);
+  background-size: 200% 200%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.gradation-button:visited {
+  color: white;
+}
+
+
