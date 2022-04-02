@@ -19,7 +19,10 @@ const Header = () => {
                     <Link to="/blog">Blog</Link>
                 </li>
                 <li>
-                    <a href="https://twitter.com/10_to_Sen">SNS</a>
+                    <a href="https://twitter.com/10_to_Sen">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://github.com/KatotenMk2">Github</a>
                 </li>
             </ul>
         </nav>
