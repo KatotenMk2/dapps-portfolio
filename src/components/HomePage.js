@@ -20,7 +20,7 @@ const HomePage = () => {
                 <h4 class="my-3">Wave Portal</h4>
                 <p class="text-muted">
                   UNCHAINのチュートリアル #1<br />
-                  メッセージとWaveがブロックチェーンに保存されるよ！
+                  メッセージとWaveを保存しよう！
                 </p>
                 <Link to="/EthDApp"><a href="#" class="go-button gradation-button">Go !!</a></Link>
               </div>
@@ -30,18 +30,19 @@ const HomePage = () => {
                 <h4 class="my-3">NFT Collection</h4>
                 <p class="text-muted">
                   UNCHAINのチュートリアル #2<br />
-                  名前が書かれたNFTがランダム生成されるよ！（おひとり様50個まで）
+                  ランダムな名前NFTをmintしよう！！
                 </p>
                 <Link to="/EthNft"><a href="#" class="go-button gradation-button">Go !!</a></Link>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="service card-effect">
-                <h4 class="my-3">制作中だよ！</h4>
+                <h4 class="my-3">NFT Game</h4>
                 <p class="text-muted">
-                  待っててね！
+                  UNCHAINのチュートリアル #3<br />
+                  NFTをゲットして最強の敵を倒せ！！
                 </p>
-                <a href="#" class="go-button gradation-button">Go !!</a>
+                <Link to="/EthNftGame"><a href="#" class="go-button gradation-button">Go !!</a></Link>
               </div>
             </div>
             <div class="col-lg-4">
