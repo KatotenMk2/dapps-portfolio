@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import EthDApp from './components/EthDApp';
 import EthNft from './components/EthNft';
 import EthNftGame from './components/EthNftGame';
+import PolygonNft from './components/PolygonNft';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/ethdapp" element={<EthDApp />} />
           <Route path="/ethnft" element={<EthNft />} />
           <Route path="/ethnftgame" element={<EthNftGame />} />
+          <Route path="/polygonnft" element={<PolygonNft />} />
         </Routes>
       </div>
     </Router>

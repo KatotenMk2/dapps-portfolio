@@ -47,11 +47,12 @@ const HomePage = () => {
             </div>
             <div class="col-lg-4">
               <div class="service card-effect">
-                <h4 class="my-3">#4</h4>
+                <h4 class="my-3">Polygon Nft</h4>
                 <p class="text-muted">
-                  #4
+                  UNCHAINのチュートリアル #4
+                  Plygon上でNFTを発行する！！
                 </p>
-                <a href="#" class="go-button gradation-button">Go !!</a>
+                <Link to="/PolygonNft"><a href="#" class="go-button gradation-button">Go !!</a></Link>
               </div>
             </div>
             <div class="col-lg-4">
